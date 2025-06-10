@@ -11,3 +11,10 @@
 * [8. Mort & Bannissement](hardcore/mort_ban.md)
 * [9. Map & Environnement](hardcore/map.md)
 * [10. Règles importantes](hardcore/regles.md)
+
+* [Serveur](serveur/README.md)
+  * [Launcher Mineria](serveur/launcher.md)
+  * [Règles Générales](serveur/regles_generales.md)
+  * [Comment jouer](serveur/comment_jouer.md)
+* [PvP Box](pvpbox/README.md)
+* [Factions](factions/README.md)
