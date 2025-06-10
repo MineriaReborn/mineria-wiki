@@ -1,3 +1,0 @@
-# Factions
-
-*(Contenu à venir)*
