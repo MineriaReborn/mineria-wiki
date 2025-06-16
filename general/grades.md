@@ -1,6 +1,6 @@
 # 📛 Grades
 
-Bienvenue dans la section dédiée aux **grades** sur le serveur <mark style="color:orange;">**Mineria**</mark>.
+Bienvenue dans la section dédiée aux **grades** sur le serveur **Mineria**.
 
 ***
 
