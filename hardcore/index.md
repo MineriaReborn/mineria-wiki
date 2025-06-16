@@ -1,2 +1,2 @@
-# Mode Hardcore
+# 💀 Mode Hardcore
 

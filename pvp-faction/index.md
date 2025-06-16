@@ -1,2 +1,2 @@
-# PvP Faction
+# ⚔️ PvP Factions
 

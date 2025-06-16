@@ -1,2 +1,0 @@
-# Systèmes globaux
-

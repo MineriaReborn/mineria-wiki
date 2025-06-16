@@ -1,3 +1,3 @@
 # Mineria - Wiki officiel
 
-Bienvenue sur le wiki de Mineria, un serveur Minecraft PvP Factions moddé.
+Bienvenue sur le wiki de **Mineria**, un serveur Minecraft PvP Factions moddé avec plusieurs modes de jeu.
