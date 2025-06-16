@@ -8,7 +8,7 @@ Tous les classements des différents modes de jeu de **Mineria** sont accessible
     /classement
     ```
 2. 🌐 **Sur le site officiel**, dans l’onglet `Classements` :\
-   👉 [mineria.fr/classements](https://mineria.fr/)
+   👉 [mineria.fr](https://mineria.fr/)
 
 ***
 
