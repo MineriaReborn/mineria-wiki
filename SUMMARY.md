@@ -2,11 +2,11 @@
 
 * [🏠 Accueil](README.md)
 * [📚 Général]
-  * [📛 Grades](général/grades.md)
-  * [🏆 Classements](général/classements.md)
-  * [🛠️ Crafts](général/crafts.md)
-    * [Items](général/crafts/items.md)
-    * [Blocs](général/crafts/blocs.md)
+  * [📛 Grades](general/grades.md)
+  * [🏆 Classements](general/classements.md)
+  * [🛠️ Crafts](general/crafts.md)
+    * [Items](general/crafts/items.md)
+    * [Blocs](general/crafts/blocs.md)
 * [⚔️ PvP-Factions](pvp-faction/index.md)
 * [💀 Mode Hardcore](hardcore/index.md)
 * [🥊 PvP-Box](pvpbox/index.md)
