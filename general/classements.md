@@ -2,18 +2,16 @@
 
 Tous les classements des différents modes de jeu de **Mineria** sont accessibles de deux façons :
 
-1. 🎮 **Directement en jeu** via la commande :  
-   ```
-   /classement
-   ```
+1.  🎮 **Directement en jeu** via la commande :
 
-2. 🌐 **Sur le site officiel**, dans l’onglet `Classements` :
-   👉 [mineria.fr/classements](https://mineria.fr/classements)
+    ```
+    /classement
+    ```
+2. 🌐 **Sur le site officiel**, dans l’onglet `Classements` :\
+   👉 [mineria.fr/classements](https://mineria.fr/)
 
----
+***
 
-Chaque classement trie les joueurs ou factions selon différents critères propres à chaque mode de jeu :
-kills, morts, temps de jeu, etc.
+Chaque classement trie les joueurs ou factions selon différents critères propres à chaque mode de jeu.
 
-➡️ Pour comprendre en détail comment fonctionne chaque classement, rendez-vous dans la page dédiée au classement
-dans l'onglet correspondant à chaque mode de jeu ici-même sur le GitBook.
+➡️ Pour connaître le fonctionnement précis de chaque classement, consultez la page **Classement** présente dans l’onglet du mode de jeu concerné.

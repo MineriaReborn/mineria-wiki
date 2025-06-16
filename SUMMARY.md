@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🏠 Accueil](README.md)
-* [📚 Général]
+* [\[📚 Général\]](general/README.md)
   * [📛 Grades](general/grades.md)
   * [🏆 Classements](general/classements.md)
   * [🛠️ Crafts](general/crafts.md)
