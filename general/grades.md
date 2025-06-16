@@ -32,32 +32,41 @@ Tu pourras y déposer ta candidature auprès d’un responsable staff.
 
 <table>
   <tr>
-    <td><img src="https://mineria.fr/api/skin-api/avatars/face/CipheR_.png" width="40"></td>
+    <td style="width: 50px; text-align: center;">
+      <img src="https://mineria.fr/api/skin-api/avatars/face/CipheR_.png" width="40">
+    </td>
     <td>
       <strong style="color:#AA0000;">CipheR_</strong><br/>
       <span style="color:#AA0000;">Fondateur</span>
     </td>
   </tr>
   <tr>
-    <td><img src="https://mineria.fr/api/skin-api/avatars/face/Para.png" width="40"></td>
+    <td style="width: 50px; text-align: center;">
+      <img src="https://mineria.fr/api/skin-api/avatars/face/Para.png" width="40">
+    </td>
     <td>
       <strong style="color:#AA0000;">Para</strong><br/>
       <span style="color:#AA0000;">Fondateur</span>
     </td>
   </tr>
   <tr>
-    <td><img src="https://mineria.fr/api/skin-api/avatars/face/Ilhan.png" width="40"></td>
+    <td style="width: 50px; text-align: center;">
+      <img src="https://mineria.fr/api/skin-api/avatars/face/Ilhan.png" width="40">
+    </td>
     <td>
       <strong style="color:#AA0000;">Ilhan</strong><br/>
       <span style="color:#AA0000;">Fondateur</span>
     </td>
   </tr>
   <tr>
-    <td><img src="https://mineria.fr/api/skin-api/avatars/face/Zey.png" width="40"></td>
+    <td style="width: 50px; text-align: center;">
+      <img src="https://mineria.fr/api/skin-api/avatars/face/Zey.png" width="40">
+    </td>
     <td>
       <strong style="color:#FF5555;">Zey</strong><br/>
       <span style="color:#FF5555;">Administrateur</span>
     </td>
   </tr>
 </table>
+
 
