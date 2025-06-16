@@ -24,14 +24,14 @@ Tu pourras y déposer ta candidature auprès d’un responsable staff.
 
 
 
-* <mark style="color:orange;">**Modérateur**</mark>
-* <mark style="color:orange;">**SuperModérateur**</mark>
-* <mark style="color:red;">**Administrateur**</mark>
-* <mark style="color:red;">**Développeur**</mark>
+* 🛡️ <mark style="color:yellow;">**Modérateur**</mark>
+* 🛡️✨ <mark style="color:yellow;">**SuperModérateur**</mark>
+* 🕹️ <mark style="color:red;">**Administrateur**</mark>
+* ⚙️ <mark style="color:red;">**Développeur**</mark>
 * 👑 <mark style="color:red;">**Fondateur**</mark>
 
 ***
 
-## 👑 Liste du staff
+## 👥 Liste du staff
 
-<table data-header-hidden><thead><tr><th width="100" align="center"></th><th></th></tr></thead><tbody><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/CipheR_.png" alt=""></td><td><strong>CipheR_</strong><br>👑 <mark style="color:red;">Fondateur</mark></td></tr><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/Para.png" alt=""></td><td><strong>Para</strong><br>👑 <mark style="color:red;">Fondateur</mark></td></tr><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/Ilhan.png" alt=""></td><td><strong>Ilhan</strong><br>👑 <mark style="color:red;">Fondateur</mark></td></tr><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/Zey.png" alt=""></td><td><strong>Zey</strong><br><mark style="color:red;">Administrateur</mark></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="100" align="center"></th><th></th></tr></thead><tbody><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/CipheR_.png" alt=""></td><td><strong>CipheR_</strong><br>👑 <mark style="color:red;">Fondateur</mark></td></tr><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/Para.png" alt=""></td><td><strong>Para</strong><br>👑 <mark style="color:red;">Fondateur</mark></td></tr><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/Ilhan.png" alt=""></td><td><strong>Ilhan</strong><br>👑 <mark style="color:red;">Fondateur</mark></td></tr><tr><td align="center"><img src="https://mineria.fr/api/skin-api/avatars/face/Zey.png" alt=""></td><td><strong>Zey</strong><br>🕹️ <mark style="color:red;">Administrateur</mark></td></tr></tbody></table>
