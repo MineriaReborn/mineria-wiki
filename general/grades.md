@@ -30,9 +30,21 @@ Tu pourras y déposer ta candidature auprès d’un responsable staff.
 
 ## 👑 Liste du staff
 
-| Grade                          | Pseudo    | Tête |
-|--------------------------------|-----------|------|
-| <span style="color:#AA0000">**Fondateur**</span>       | CipheR_   | ![](https://mineria.fr/api/skin-api/avatars/face/CipheR_.png) |
-| <span style="color:#AA0000">**Fondateur**</span>       | Para      | ![](https://mineria.fr/api/skin-api/avatars/face/Para.png) |
-| <span style="color:#AA0000">**Fondateur**</span>       | Ilhan     | ![](https://mineria.fr/api/skin-api/avatars/face/Ilhan.png) |
-| <span style="color:#FF5555">**Administrateur**</span>  | Zey       | ![](https://mineria.fr/api/skin-api/avatars/face/Zey.png) |
+<table>
+  <tr>
+    <td><img src="https://mineria.fr/api/skin-api/avatars/face/CipheR_.png" /></td>
+    <td><strong style="color:#AA0000">CipheR_</strong><br/><span style="color:#AA0000">Fondateur</span></td>
+  </tr>
+  <tr>
+    <td><img src="https://mineria.fr/api/skin-api/avatars/face/Para.png" /></td>
+    <td><strong style="color:#AA0000">Para</strong><br/><span style="color:#AA0000">Fondateur</span></td>
+  </tr>
+  <tr>
+    <td><img src="https://mineria.fr/api/skin-api/avatars/face/Ilhan.png" /></td>
+    <td><strong style="color:#AA0000">Ilhan</strong><br/><span style="color:#AA0000">Fondateur</span></td>
+  </tr>
+  <tr>
+    <td><img src="https://mineria.fr/api/skin-api/avatars/face/Zey.png" /></td>
+    <td><strong style="color:#FF5555">Zey</strong><br/><span style="color:#FF5555">Administrateur</span></td>
+  </tr>
+</table>
