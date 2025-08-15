@@ -1,10 +1,10 @@
 # 🏠 Accueil
 
-Bienvenue sur le wiki de **Mineria**, un serveur Minecraft **PvP-Factions moddé** proposant plusieurs modes de jeu : **Hardcore, Semi-RP, PvP-Box**, et d’autres expériences uniques.
+Bienvenue sur le wiki de **Mineria**, un serveur Minecraft **1.7.10 moddé** proposant plusieurs modes de jeu : **Faction, Hardcore, Semi-RP, PvP-Box**, et d’autres expériences uniques.
 
 ---
 
-## ⏲️ Horaires et alertes de redémarrage
+## ⏲️ Horaires de redémarrage
 
 Les serveurs redémarrent automatiquement chaque jour afin de garantir de bonnes performances et une expérience de jeu fluide.
 
