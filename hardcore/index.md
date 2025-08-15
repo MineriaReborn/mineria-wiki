@@ -1,6 +1,5 @@
 # 💀 Mode Hardcore
 
-> **Version serveur : 1.7.10**  
 > Mode compétitif et équilibré dans une map limitée, avec traque, primes et classement.
 
 ---
@@ -84,7 +83,7 @@ Le mode Hardcore de **Mineria** propose :
 
 ### ⛏️ Nouveaux minerais & comparaisons
 
-> `*` **Aria** n’est **pas disponible** pour cette saison Hardcore.
+> `*` l'**Aria** n’est **pas disponible** sur le Hardcore.
 
 | Minerai  | Dégâts | Points d’armure | % dégâts bloqués |
 |----------|:------:|:---------------:|:----------------:|
