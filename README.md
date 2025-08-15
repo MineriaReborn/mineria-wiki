@@ -1,6 +1,6 @@
 # 🏠 Accueil
 
-Bienvenue sur le wiki de **Mineria**, un serveur Minecraft PvP-Factions moddé avec plusieurs modes de jeu.
+Bienvenue sur le wiki de **Mineria**, un serveur Minecraft **PvP-Factions moddé** proposant plusieurs modes de jeu : **Hardcore, Semi-RP, PvP-Box**, et d’autres expériences uniques.
 
 ---
 
