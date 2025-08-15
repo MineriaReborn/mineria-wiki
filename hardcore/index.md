@@ -51,9 +51,9 @@ Le mode Hardcore de **Mineria** propose :
 **Téléportations aléatoires :**
 - À l’**entrée** dans le Nether
 - Au **retour** dans l’Overworld  
-  ➜ **Message global** à **l’entrée** et à la **sortie**
 
 **Divers :**
+- **Un message global est envoyé à tous les joueurs lorsqu’un joueur entre ou sort.**
 - **Portails classiques désactivés**
 - **1 verrue du Nether** obtenue après **20 min** de connexion **continue** dans le Nether
 
