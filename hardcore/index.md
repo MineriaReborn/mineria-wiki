@@ -5,6 +5,26 @@
 
 ---
 
+## 📜 Sommaire
+- [🎯 Présentation](#-présentation)
+- [🌍 Overworld](#1--overworld)
+- [🔥 Nether](#2--nether)
+- [⚔️ PVP](#3--pvp)
+  - [⛏️ Nouveaux minerais & comparaisons](#️-nouveaux-minerais--comparaisons)
+  - [🚫 Désactivations](#-désactivations)
+  - [⏱️ Cooldowns](#️-cooldowns)
+  - [🎯 Effets de kill](#-effets-de-kill)
+  - [⏳ Temps de ban à la mort](#-temps-de-ban-à-la-mort)
+- [⛏️ Farming & XP](#4️-farming--xp)
+- [🧭 Boussole de Traque](#5--boussole-de-traque)
+  - [💎 Émeraude magique](#-émeraude-magique)
+- [🏆 Classement](#6--classement)
+- [🎁 Coffres à Loot](#7--coffres-à-loot)
+- [💰 Prime sur la Tête](#8--prime-sur-la-tête)
+- [⭐ Avantages Grade Héros](#-avantages-grade-héros)
+
+---
+
 ## 🎯 Présentation
 
 Le mode Hardcore de **Mineria** propose :
@@ -184,7 +204,7 @@ En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
 | 1 Livre Flamme I             | 25 %        |
 | 1 Livre Aura de Feu II       | 15 %        |
 | 1 Livre Solidité III         | 18 %        |
-| 1 **Pomme Cheat**            | 10 %        |
+| 1 Pomme Cheat            | 10 %        |
 | 10 Émeraudes                 | 80 %        |
 | 2 Potions de Régénération I ?| 15 %        |
 | 1 Œuf de villageois          | 5 %         |
