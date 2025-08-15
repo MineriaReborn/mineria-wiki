@@ -157,7 +157,7 @@ En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
 ```
 
 **Accès :**
-- **Site externe** `https://mineria.fr/hardcore`
+- **Site :  [mineria.fr/hardcore](https://mineria.fr/hardcore)**
 - **En jeu :** `/classement`
 
 ---
