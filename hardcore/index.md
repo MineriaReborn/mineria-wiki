@@ -211,7 +211,7 @@ En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
 /craft
 /feed
 /enderchest   # (désactivé en combat)
-/repair       # (cooldown : 6 h)
+/repair       # (cooldown : 6 h, désactivé en combat)
 /uncondense   # blocs -> lingots
 /condense     # minerais -> blocs
 /furnace      # cuisson instantanée (minerais + nourriture)
