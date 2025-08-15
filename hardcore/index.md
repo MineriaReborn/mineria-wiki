@@ -6,22 +6,23 @@
 ---
 
 ## 📜 Sommaire
-- [🎯 Présentation](#-présentation)
+- [🎯 Présentation](#presentation)
 - [🌍 Overworld](#1--overworld)
 - [🔥 Nether](#2--nether)
 - [⚔️ PVP](#3--pvp)
-  - [⛏️ Nouveaux minerais & comparaisons](#️-nouveaux-minerais--comparaisons)
-  - [🚫 Désactivations](#-désactivations)
-  - [⏱️ Cooldowns](#️-cooldowns)
-  - [🎯 Effets de kill](#-effets-de-kill)
-  - [⏳ Temps de ban à la mort](#-temps-de-ban-à-la-mort)
-- [⛏️ Farming & XP](#4️-farming--xp)
+  - [⛏️ Nouveaux minerais & comparaisons](#nouveaux-minerais--comparaisons)
+  - [🚫 Désactivations](#desactivations)
+  - [⏱️ Cooldowns](#cooldowns)
+  - [🎯 Effets de kill](#effets-de-kill)
+  - [⏳ Temps de ban à la mort](#temps-de-ban-a-la-mort)
+- [⛏️ Farming & XP](#4--farming--xp)
 - [🧭 Boussole de Traque](#5--boussole-de-traque)
-  - [💎 Émeraude magique](#-émeraude-magique)
+  - [💎 Émeraude magique](#emeraude-magique)
 - [🏆 Classement](#6--classement)
-- [🎁 Coffres à Loot](#7--coffres-à-loot)
-- [💰 Prime sur la Tête](#8--prime-sur-la-tête)
-- [⭐ Avantages Grade Héros](#-avantages-grade-héros)
+- [🎁 Coffres à Loot](#7--coffres-a-loot)
+- [💰 Prime sur la Tête](#8--prime-sur-la-tete)
+- [⭐ Avantages Grade Héros](#avantages-grade-heros)
+
 
 ---
 
