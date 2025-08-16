@@ -42,7 +42,7 @@ Le mode Hardcore de **Mineria** propose :
 
 ## 1) 🌍 Overworld
 
-- **Taille :** `3000 × 3000`  
+- **Taille :** `5000 × 5000`  
 - **Spawn central :** `x:0, z:0`
 - **Zone spawn protégée :** `100 × 100` (**claim**)
   - Jump avec **table d’enchantement** au sommet
