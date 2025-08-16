@@ -126,8 +126,8 @@ En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
 
 ## 4) ⛏️ Farming & XP
 
-- **Saphir** générés **dans tous les biomes**
-- **Émeraude** générés en biome **Extreme Hills**
+- **Saphir** généré **dans tous les biomes**
+- **Émeraude** générée en biome **Extreme Hills**
 - **/bottlexp** : taxe 10 %
 - **Niveau requis :**
   - **15** lvl (*Guerrier*)
@@ -195,7 +195,7 @@ En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
 
 ### 📦 Table des loots
 
-| Loot                          | % de chance |
+| Loot                         | % de chance |
 |------------------------------|:-----------:|
 | 6 EnderPearls                | 60 %        |
 | 1 Émeraude magique           | 100 %       |
@@ -204,9 +204,9 @@ En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
 | 1 Livre Flamme I             | 25 %        |
 | 1 Livre Aura de Feu II       | 15 %        |
 | 1 Livre Solidité III         | 18 %        |
-| 1 Pomme Cheat            | 10 %        |
+| 1 Pomme Cheat                | 10 %        |
 | 10 Émeraudes                 | 80 %        |
-| 2 Potions de Régénération I ?| 15 %        |
+| 2 Potions de Régénération II | 15 %        |
 | 1 Œuf de villageois          | 5 %         |
 
 ---
