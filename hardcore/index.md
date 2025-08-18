@@ -1,223 +1,267 @@
 # 💀 Mode Hardcore
 
-> Mode compétitif et équilibré dans une map limitée, avec traque, primes et classement.
+> <div align="center">
+> <span style="font-size:1.5em; font-weight:bold;">⚔️ Mode compétitif & équilibré</span><br>
+> Carte limitée • PVP stratégique • Traque & primes • Classement dynamique
+> </div>
 
 ---
 
 ## 📜 Sommaire
-- [🎯 Présentation](#presentation)
-- [🌍 Overworld](#1--overworld)
-- [🔥 Nether](#2--nether)
-- [⚔️ PVP](#3--pvp)
-  - [⛏️ Nouveaux minerais & comparaisons](#nouveaux-minerais--comparaisons)
-  - [🚫 Désactivations](#desactivations)
-  - [⏱️ Cooldowns](#cooldowns)
-  - [🎯 Effets de kill](#effets-de-kill)
-  - [⏳ Temps de ban à la mort](#temps-de-ban-a-la-mort)
-- [⛏️ Farming & XP](#4--farming--xp)
-- [🧭 Boussole de Traque](#5--boussole-de-traque)
-  - [💎 Émeraude magique](#emeraude-magique)
-- [🏆 Classement](#6--classement)
-- [🎁 Coffres à Loot](#7--coffres-a-loot)
-- [💰 Prime sur la Tête](#8--prime-sur-la-tete)
-- [⭐ Avantages Grade Héros](#avantages-grade-heros)
-
+<ul>
+<li><a href="#-présentation">🎯 Présentation</a></li>
+<li><a href="#-overworld">🌍 Overworld</a></li>
+<li><a href="#-nether">🔥 Nether</a></li>
+<li><a href="#-pvp">⚔️ PVP</a>
+  <ul>
+    <li><a href="#-nouveaux-minerais">⛏️ Nouveaux minerais</a></li>
+    <li><a href="#-désactivations">🚫 Désactivations</a></li>
+    <li><a href="#️-cooldowns">⏱️ Cooldowns</a></li>
+    <li><a href="#-effets-de-kill">🎯 Effets de kill</a></li>
+    <li><a href="#-temps-de-ban">⏳ Temps de ban</a></li>
+  </ul>
+</li>
+<li><a href="#-farming--xp">⛏️ Farming & XP</a></li>
+<li><a href="#-boussole-de-traque">🧭 Boussole de Traque</a></li>
+<li><a href="#-classement">🏆 Classement</a></li>
+<li><a href="#-coffres-à-loot">🎁 Coffres à Loot</a></li>
+<li><a href="#-prime-sur-la-tête">💰 Prime sur la Tête</a></li>
+<li><a href="#-grade-héros">⭐ Grade Héros</a></li>
+</ul>
 
 ---
 
 ## 🎯 Présentation
 
-Le mode Hardcore de **Mineria** propose :
-
-- **Monde** limité
-- **Spawn** sécurisé et protégé
-- **Nether** accessible via **un item spécial**
-- **PVP** stratégique et régulé
-- **Farming** optimisé
-- **Chasse aux joueurs** via **boussole** + **primes**
-- **Classement** (kills, survie, temps de jeu)
-- **Loots aléatoires** pour dynamiser l’exploration
-
----
-
-## 1) 🌍 Overworld
-
-- **Taille :** `5000 × 5000`  
-- **Spawn central :** `x:0, z:0`
-- **Zone spawn protégée :** `100 × 100` (**claim**)
-  - Jump avec **table d’enchantement** au sommet
-  - **Dégâts de chute désactivés** dans cette zone
-- **Spawn aléatoire :**
-  - À la **première connexion**
-  - **Après chaque mort**
+<div style="background:#1e1e2f; padding:15px; border-radius:8px; color:#fff; line-height:1.6;">
+🔥 Le mode <b>Hardcore</b> de <b>Mineria</b> propose :
+<ul>
+<li>✅ Monde limité</li>
+<li>✅ Spawn sécurisé</li>
+<li>✅ Nether via item spécial</li>
+<li>✅ PVP stratégique & régulé</li>
+<li>✅ Farming optimisé</li>
+<li>✅ Chasse via boussole + primes</li>
+<li>✅ Classement dynamique</li>
+<li>✅ Loots aléatoires</li>
+</ul>
+</div>
 
 ---
 
-## 2) 🔥 Nether
+## 🌍 Overworld
 
-- **Taille :** `1000 × 1000`
-- **Accès :** via **création d’un item spécial**
-  - Obtenu par **lot de 2** 
-  - **Utilisation unique**
-  - **Recette :**
+<div style="background:#f9f9f9; padding:12px; border-left:4px solid #4cafef;">
+📐 <b>Taille :</b> 5000 × 5000<br>
+🏰 <b>Spawn central :</b> x:0, z:0<br>
+🛡️ <b>Zone protégée :</b> 100 × 100 (claim)<br>
+</div>
 
-    ![Recette Ticket du Nether](assets/nether_ticket_recipe.png)
-
-**Restrictions :**
-- **5 s de compte à rebours** avant téléportation
-- **Impossible d’utiliser** si **boussole active** (*sauf depuis le Nether*)
-- **Bloqué en combat**
-
-**Téléportations aléatoires :**
-- À l’**entrée** dans le Nether
-- Au **retour** dans l’Overworld  
-
-**Divers :**
-- **Un message global est envoyé à tous les joueurs lorsqu’un joueur entre ou sort.**
-- **Portails classiques désactivés**
-- **1 verrue du Nether** obtenue après **20 min** de connexion **continue** dans le Nether
+<ul>
+<li>Jump avec table d’enchantement au sommet</li>
+<li>Dégâts de chute désactivés</li>
+<li><b>Spawn aléatoire :</b> première connexion + après mort</li>
+</ul>
 
 ---
 
-## 3) ⚔️ PVP
+## 🔥 Nether
 
-### ⛏️ Nouveaux minerais & comparaisons
+<div style="background:#fff0f0; padding:12px; border-left:4px solid #e53935;">
+📐 <b>Taille :</b> 1000 × 1000<br>
+🎟️ <b>Accès :</b> via <b>item spécial</b> (ticket du Nether)<br>
+</div>
 
-> `*` l'**Aria** n’est **pas disponible** sur le Hardcore.
+<ul>
+<li>Obtenu par lot de 2</li>
+<li>Utilisation unique</li>
+</ul>
 
-| Minerai  | Dégâts | Points d’armure | % dégâts bloqués |
-|----------|:------:|:---------------:|:----------------:|
-| Diamond  | 3.0    | 18              | 72 %             |
-| Sapphire | 5.0    | 20              | 80 %             |
-| Emerald  | 7.0    | 22              | 88 %             |
-| Aria*    | 9.0    | 23              | 92 %             |
+<img src="assets/nether_ticket_recipe.png" alt="Recette Ticket du Nether" style="border-radius:6px; margin:10px 0;"/>
+
+<div style="background:#fffbea; padding:12px; border-left:4px solid #fbc02d;">
+⚠️ <b>Restrictions :</b>
+<ul>
+<li>5s de compte à rebours</li>
+<li>Impossible avec boussole active (sauf Nether)</li>
+<li>Bloqué en combat</li>
+</ul>
+</div>
+
+<div style="background:#e8f5e9; padding:12px; border-left:4px solid #43a047;">
+📌 <b>Infos :</b>
+<ul>
+<li>Téléportations aléatoires (entrée/sortie)</li>
+<li>Message global quand un joueur entre/sort</li>
+<li>Portails classiques désactivés</li>
+<li>1 verrue du Nether toutes les 20min</li>
+</ul>
+</div>
+
+---
+
+## ⚔️ PVP
+
+### ⛏️ Nouveaux minerais
+
+> ❌ L’<b>Aria</b> n’est pas disponible en Hardcore.
+
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+<thead style="background:#1e1e2f; color:#fff;">
+<tr><th>Minerai</th><th>⚔️ Dégâts</th><th>🛡️ Armure</th><th>% Blocage</th></tr>
+</thead>
+<tbody>
+<tr><td>Diamond</td><td>3.0</td><td>18</td><td>72%</td></tr>
+<tr><td>Sapphire</td><td>5.0</td><td>20</td><td>80%</td></tr>
+<tr><td>Emerald</td><td>7.0</td><td>22</td><td>88%</td></tr>
+<tr style="opacity:0.5;"><td>Aria</td><td>9.0</td><td>23</td><td>92%</td></tr>
+</tbody>
+</table>
 
 ### 🚫 Désactivations
-
-- **Potion de Force II**
-- **Potion de Dégâts II**
-- **Enchantement Frappe II**
-- **Enchantement Recul II**
+<ul>
+<li>Potion Force II</li>
+<li>Potion Dégâts II</li>
+<li>Enchantement Frappe II</li>
+<li>Enchantement Recul II</li>
+</ul>
 
 ### ⏱️ Cooldowns
-
-- **Golden Apple :** `2 min 30`  
-  ➜ Affichage du **temps restant** en main
-- **Enderpearl :** `10 s`  
-  ➜ Affichage du **temps restant** en main
+<div style="text-align:center; background:#f1f1f1; padding:12px; border-radius:6px;">
+⏳ <b>Golden Apple</b> → 2 min 30 (temps restant affiché)<br>
+⏳ <b>Enderpearl</b> → 10 s (temps restant affiché)
+</div>
 
 ### 🎯 Effets de kill
+<ul>
+<li>Speed III (1 min)</li>
+<li>⚡ Éclair sonore global</li>
+</ul>
 
-- **Speed III** pendant **1 min**
-- **Éclair sonore global**
-
-### ⏳ Temps de ban à la mort
-
-En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
-
-| Grade     | Durée du ban |
-|-----------|--------------|
-| Guerrier  | 12 h         |
-| VIP       | 10 h         |
-| SuperVIP  | 8 h          |
-| Héros     | 6 h          |
-
----
-
-## 4) ⛏️ Farming & XP
-
-- **Saphir** généré **dans tous les biomes**
-- **Émeraude** générée en biome **Extreme Hills**
-- **/bottlexp** : taxe 10 %
-- **Niveau requis :**
-  - **15** lvl (*Guerrier*)
-  - **10** lvl (*Grade premium*)
-- **Enchantements** en **version 1.8**
-- **Aucune suppression d’entités** via clear lag
-- **MobStacker**, afin d’éviter les chutes de FPS.
+### ⏳ Temps de ban
+<table style="width:60%; border-collapse:collapse; text-align:center; margin:auto;">
+<thead style="background:#1e1e2f; color:#fff;"><tr><th>Grade</th><th>Durée</th></tr></thead>
+<tbody>
+<tr><td>Guerrier</td><td>12 h</td></tr>
+<tr><td>VIP</td><td>10 h</td></tr>
+<tr><td>SuperVIP</td><td>8 h</td></tr>
+<tr><td>Héros</td><td>6 h</td></tr>
+</tbody>
+</table>
 
 ---
 
-## 5) 🧭 Boussole de Traque
+## ⛏️ Farming & XP
+<ul>
+<li>Saphir généré partout</li>
+<li>Émeraude en Extreme Hills</li>
+<li><code>/bottlexp</code> : taxe 10%</li>
+<li>Niveau requis : Guerrier 15 / Premium 10</li>
+<li>Enchantements 1.8</li>
+<li>Pas de clear lag entités</li>
+<li>MobStacker actif</li>
+</ul>
 
-- **Donnée** à la **première connexion**
+---
 
-**Cooldown :**
-- **20 s** (*Guerrier*)
-- **10 s** (*Grades premium*)
+## 🧭 Boussole de Traque
 
-**Cycle d’activation :**
-- **12 min désactivée** → **8 min activée** (boucle)
-- **Dans le Nether :** **toujours active**
-- **Portée :** **500 blocs** (*Pour tout les grades*)
-- **Pas de `/friends`**
+📦 Donnée à la première connexion
+<ul>
+<li>Cooldown : Guerrier 20s / Premium 10s</li>
+<li>Cycle : 12 min OFF → 8 min ON</li>
+<li>Dans le Nether : toujours active</li>
+<li>Portée : 500 blocs</li>
+<li>Pas de /friends</li>
+</ul>
 
 ### 💎 Émeraude magique
-
-- Rend le joueur **invisible aux boussoles ennemies**
-- **Utilisable uniquement** pendant **l’activation** de la boussole
-- **Durée :** le **temps restant** de l’activation en cours
-- **Utilisation unique**
-- **Obtention** (après avoir tué un joueur) :
-  - **10 %** (*Guerrier*)
-  - **20 %** (*VIP*)
-  - **30 %** (*SuperVIP*)
-  - **40 %** (*Héros*)
+<ul>
+<li>Rend invisible aux boussoles ennemies</li>
+<li>Utilisable uniquement pendant activation</li>
+<li>Durée = temps restant du cycle actif</li>
+<li>Usage unique</li>
+<li>Drop : Guerrier 10% / VIP 20% / SuperVIP 30% / Héros 40%</li>
+</ul>
 
 ---
 
-## 6) 🏆 Classement
+## 🏆 Classement
 
-- **+40 pts** par **kill**
-- **−40 pts** par **mort**
-- **+3 pts** toutes les **20 min** de **connexion continue**
+<div style="background:#f5f5f5; padding:12px; border-left:4px solid #4caf50;">
+📈 <b>Système de points :</b>
+<ul>
+<li>+40 pts / kill</li>
+<li>−40 pts / mort</li>
+<li>+3 pts toutes les 20 min</li>
+</ul>
+</div>
 
 ```mcfunction
-/playtime   # Affiche le temps de jeu + compteur avant les +3 pts
+/playtime   # Affiche temps de jeu + compteur avant +3 pts
 ```
 
-**Accès :**
-- **Site :  [mineria.fr/hardcore](https://mineria.fr/hardcore)**
-- **En jeu :** `/classement`
+📍 <b>Accès :</b>
+<ul>
+  <li>🌐 Site : <a href="https://mineria.fr/hardcore" target="_blank">mineria.fr/hardcore</a></li>
+  <li>🎮 En jeu : <code>/classement</code></li>
+</ul>
 
 ---
 
-## 7) 🎁 Coffres à Loot
+## 🎁 Coffres à Loot
 
-- **Spawn aléatoire** sur la map
-- **Conditions :**
-  - **Minimum 10 joueurs** connectés
-  - À **10 joueurs** : **40 %** de chance **toutes les heures**
-  - **Spawn uniquement en surface**
-- **Message global :**  
-  > « **Un coffre est apparu sur la map !** Coordonnées : `xxxxx xxxxx` »
-- **Ouverture possible** **15 min** après apparition
+<div style="background:#f5f5f5; padding:12px; border-left:4px solid #7e57c2; margin-bottom:8px;">
+  🎲 <b>Conditions</b>
+  <ul style="margin:6px 0;">
+    <li>Spawn aléatoire si <b>≥ 10 joueurs</b> connectés</li>
+    <li><b>40 %</b> de chance toutes les heures</li>
+    <li>Apparition <b>uniquement en surface</b></li>
+    <li>Message global avec coordonnées</li>
+    <li>Ouverture possible <b>15 min</b> après apparition</li>
+  </ul>
+</div>
 
-### 📦 Table des loots
+📦 <b>Table des loots :</b>
 
-| Loot                         | % de chance |
-|------------------------------|:-----------:|
-| 6 EnderPearls                | 60 %        |
-| 1 Émeraude magique           | 100 %       |
-| 2 Livres Protection IV       | 20 %        |
-| 1 Livre Tranchant V          | 30 %        |
-| 1 Livre Flamme I             | 25 %        |
-| 1 Livre Aura de Feu II       | 15 %        |
-| 1 Livre Solidité III         | 18 %        |
-| 1 Pomme Cheat                | 10 %        |
-| 10 Émeraudes                 | 80 %        |
-| 2 Potions de Régénération II | 15 %        |
-| 1 Œuf de villageois          | 5 %         |
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+  <thead style="background:#1e1e2f; color:#fff;">
+    <tr>
+      <th style="padding:8px;">Loot</th>
+      <th style="padding:8px;">Chance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding:6px;">6 EnderPearls</td><td>60 %</td></tr>
+    <tr><td style="padding:6px;">1 Émeraude magique</td><td>100 %</td></tr>
+    <tr><td style="padding:6px;">2 Livres Protection IV</td><td>20 %</td></tr>
+    <tr><td style="padding:6px;">1 Livre Tranchant V</td><td>30 %</td></tr>
+    <tr><td style="padding:6px;">1 Livre Flamme I</td><td>25 %</td></tr>
+    <tr><td style="padding:6px;">1 Livre Aura de Feu II</td><td>15 %</td></tr>
+    <tr><td style="padding:6px;">1 Livre Solidité III</td><td>18 %</td></tr>
+    <tr><td style="padding:6px;">1 Pomme Cheat</td><td>10 %</td></tr>
+    <tr><td style="padding:6px;">10 Émeraudes</td><td>80 %</td></tr>
+    <tr><td style="padding:6px;">2 Potions Régénération II</td><td>15 %</td></tr>
+    <tr><td style="padding:6px;">1 Œuf de villageois</td><td>5 %</td></tr>
+  </tbody>
+</table>
 
 ---
 
-## 8) 💰 Prime sur la Tête
+## 💰 Prime sur la Tête
 
-- Chaque **kill** ➜ **prime 1 h** sur la tête (**cumulable**)
-- Le **temps de prime ne diminue pas** si le joueur est **seul** sur le serveur
-- Si un **joueur avec prime** meurt, ça **compte double** dans le classement :
-  - **Tueur :** **+80 pts**
-  - **Victime :** **−80 pts**
+<div style="background:#fffbea; padding:12px; border-left:4px solid #fbc02d; margin-bottom:8px;">
+  <ul style="margin:6px 0;">
+    <li>Chaque kill ➜ <b>prime 1 h</b> sur la tête (<b>cumulable</b>)</li>
+    <li>Le timer de prime <b>ne baisse pas</b> si le joueur est <b>seul</b> sur le serveur</li>
+    <li>Si un joueur avec prime meurt :
+      <ul>
+        <li>👑 <b>Tueur :</b> +80 pts</li>
+        <li>💀 <b>Victime :</b> −80 pts</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 ```mcfunction
 /wanted  # alias : /prime, /bounty
@@ -225,16 +269,39 @@ En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
 
 ---
 
-## ⭐ Avantages Grade Héros
+## ⭐ Grade Héros
 
-```mcfunction
-/craft
-/feed
-/enderchest   # (désactivé en combat)
-/repair       # (cooldown : 6 h, désactivé en combat)
-/uncondense   # blocs -> lingots
-/condense     # minerais -> blocs
-/furnace      # cuisson instantanée (minerais + nourriture)
-```
+<details>
+<summary><code>/craft</code></summary>
+✨ Ouvre une table de craft depuis n’importe où.
+</details>
 
----
+<details>
+<summary><code>/feed</code></summary>
+🍖 Remplit instantanément la barre de faim.
+</details>
+
+<details>
+<summary><code>/enderchest</code></summary>
+📦 Accès rapide à l’enderchest. <i>(désactivé en combat)</i>
+</details>
+
+<details>
+<summary><code>/repair</code></summary>
+🛠️ Répare un objet. <i>(cooldown 6h, désactivé en combat)</i>
+</details>
+
+<details>
+<summary><code>/uncondense</code></summary>
+🔄 Convertit les blocs en lingots.
+</details>
+
+<details>
+<summary><code>/condense</code></summary>
+💠 Transforme les minerais en blocs.
+</details>
+
+<details>
+<summary><code>/furnace</code></summary>
+🔥 Cuisson instantanée des minerais.
+</details>
