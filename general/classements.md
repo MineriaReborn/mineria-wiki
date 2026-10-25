@@ -1,17 +1,25 @@
 # 🏆 Classements
 
-Tous les classements des différents modes de jeu de **Mineria** sont accessibles de deux façons :
+> Chaque serveur a son classement : voici où le trouver.
 
-1.  🎮 **Directement en jeu** via la commande :
+## ⚡ En bref
 
-    ```
-    /classement
-    ```
-2. 🌐 **Sur le site officiel**, dans l’onglet `Classements` :\
-   👉 [mineria.fr](https://mineria.fr/)
+- `/classement` marche sur chaque serveur : il affiche le classement du serveur où tu te trouves.
+- Chaque mode compte ses propres points : ton classement PvP-Box n'a rien à voir avec ton classement Hardcore.
 
 ***
 
-Chaque classement trie les joueurs ou factions selon différents critères propres à chaque mode de jeu.
+## 📋 Le classement de chaque serveur
 
-➡️ Pour connaître le fonctionnement précis de chaque classement, consultez la page **Classement** présente dans l’onglet du mode de jeu concerné.
+| Serveur | Ce que montre `/classement` | Détails |
+| --- | --- | --- |
+| **Hub** | Le « Classement Jump » : les 10 meilleurs temps du parcours | [Serveurs et hub](serveurs.md) |
+| **PvP-Factions** | Six classements : Seigneur & Roi, Factions, Chasseurs, Mineurs, Marchands et Richesse | [Classements PvP-Factions](../pvp-faction/classements.md) |
+| **PvP-Box** | Le Top 10 par points | [PvP-Box](../pvpbox/index.md) |
+| **Hardcore** | Le Top 10 par score (au survol : kills, morts, ratio, temps de jeu) | [Combat, mort et primes](../hardcore/combat.md) |
+
+## ⌨️ Commandes
+
+| Commande | Effet | Accès |
+| --- | --- | --- |
+| `/classement` | Ouvre le classement du serveur où tu es | Tous |

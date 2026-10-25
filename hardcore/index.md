@@ -1,240 +1,98 @@
 # 💀 Mode Hardcore
 
-> Mode compétitif et équilibré dans une map limitée, avec traque, primes et classement.
+> Ici, une mort te coûte cher : tu es banni quelques heures, mais chaque kill te rapporte des points. Cette page t'explique comment survivre, traquer et grimper au classement.
 
----
+## ⚡ En bref
 
-## 📜 Sommaire
-- [🎯 Présentation](#presentation)
-- [🌍 Overworld](#1--overworld)
-- [🔥 Nether](#2--nether)
-- [⚔️ PVP](#3--pvp)
-  - [⛏️ Nouveaux minerais & comparaisons](#nouveaux-minerais--comparaisons)
-  - [🚫 Désactivations](#desactivations)
-  - [⏱️ Cooldowns](#cooldowns)
-  - [🎯 Effets de kill](#effets-de-kill)
-  - [⏳ Temps de ban à la mort](#temps-de-ban-a-la-mort)
-- [⛏️ Farming & XP](#4--farming--xp)
-- [🧭 Boussole de Traque](#5--boussole-de-traque)
-  - [💎 Émeraude magique](#emeraude-magique)
-- [🏆 Classement](#6--classement)
-- [🎁 Coffres à Loot](#7--coffres-a-loot)
-- [💰 Prime sur la Tête](#8--prime-sur-la-tete)
-- [⭐ Avantages Grade Héros](#avantages-grade-heros)
+- Le monde fait **5000 × 5000 blocs** (le Nether **1000 × 1000**). Impossible d'aller au-delà de la bordure.
+- À ta **première connexion** et après **chaque mort**, tu es téléporté au hasard dans le monde, avec **5 steaks cuits** et une **Boussole traqueuse**.
+- Si tu **meurs**, tu es **banni temporairement** (12 h par défaut) et tu perds ton inventaire.
+- Tuer un joueur te donne **+1 kill**, **Vitesse III pendant 1 minute**, sa **tête**, et une chance de gagner une **Émeraude magique**.
+- Chaque kill place une **prime d'une heure** sur ta tête.
+- Ton score dépend de tes kills, de tes morts et de ton temps de jeu : il alimente le **Top 10**.
 
+## 🗺️ Le monde
 
----
+| Zone | Taille | Particularités |
+|---|---|---|
+| Overworld | 5000 × 5000 | Bordure infranchissable |
+| Nether | 1000 × 1000 | Accessible avec un Ticket du Nether |
+| WarZone (spawn) | environ 100 × 100 autour du centre | Zone protégée |
 
-## 🎯 Présentation
+Quand tu touches la bordure, tu reçois : *« Tu ne peux pas aller au-delà des limites de la map ! »* et tu es repoussé.
 
-Le mode Hardcore de **Mineria** propose :
+### 🛡️ La WarZone
 
-- **Monde** limité
-- **Spawn** sécurisé et protégé
-- **Nether** accessible via **un item spécial**
-- **PVP** stratégique et régulé
-- **Farming** optimisé
-- **Chasse aux joueurs** via **boussole** + **primes**
-- **Classement** (kills, survie, temps de jeu)
-- **Loots aléatoires** pour dynamiser l’exploration
+C'est la zone centrale du monde. Quand tu y entres, tu vois *« Vous êtes entré dans la WarZone. »*, et en sortant *« Vous êtes entré dans la Wilderness. »*.
 
----
+Dans la WarZone :
 
-## 1) 🌍 Overworld
+- tu ne peux **ni casser ni poser de blocs** ;
+- les **explosions** ne détruisent rien ;
+- l'**eau**, la **lave**, les **pistons** et les **seaux** n'altèrent pas le terrain ;
+- les **cadres**, **peintures**, **chariots** et **bateaux** sont protégés ;
+- la terre labourée ne se piétine pas ;
+- tu ne subis **aucun dégât de chute**.
 
-- **Taille :** `5000 × 5000`  
-- **Spawn central :** `x:0, z:0`
-- **Zone spawn protégée :** `100 × 100` (**claim**)
-  - Jump avec **table d’enchantement** au sommet
-  - **Dégâts de chute désactivés** dans cette zone
-- **Spawn aléatoire :**
-  - À la **première connexion**
-  - **Après chaque mort**
+{% hint style="warning" %}
+Les **perles de l'Ender** sont interdites dans la WarZone : *« Les perles de l'Ender sont interdites dans cette zone. »* La perle te est rendue.
+{% endhint %}
 
----
+## 🎲 Apparition aléatoire
 
-## 2) 🔥 Nether
+Tu n'apparais jamais au même endroit. Le jeu te place sur un sol sûr de la surface, en dehors de la WarZone et loin des océans et des rivières.
 
-- **Taille :** `1000 × 1000`
-- **Accès :** via **création d’un item spécial**
-  - Obtenu par **lot de 2** 
-  - **Utilisation unique**
-  - **Recette :**
+Tu reçois à chaque apparition :
 
-    ![Recette Ticket du Nether](assets/nether_ticket_recipe.png)
+- 5 steaks cuits ;
+- une **Boussole traqueuse** (voir [La traque](traque.md)).
 
-**Restrictions :**
-- **5 s de compte à rebours** avant téléportation
-- **Impossible d’utiliser** si **boussole active** (*sauf depuis le Nether*)
-- **Bloqué en combat**
+## 🔥 Le Nether
 
-**Téléportations aléatoires :**
-- À l’**entrée** dans le Nether
-- Au **retour** dans l’Overworld  
+Les portails classiques sont **désactivés**. Pour aller dans le Nether, il te faut un **Ticket du Nether**.
 
-**Divers :**
-- **Un message global est envoyé à tous les joueurs lorsqu’un joueur entre ou sort.**
-- **Portails classiques désactivés**
-- **1 verrue du Nether** obtenue après **20 min** de connexion **continue** dans le Nether
+### Recette
 
----
+Entoure **1 perle de l'Ender** de **8 obsidiennes** : tu obtiens **2 tickets**.
 
-## 3) ⚔️ PVP
+![Recette Ticket du Nether](assets/nether_ticket_recipe.png)
 
-### ⛏️ Nouveaux minerais & comparaisons
+### Traversée
 
-> `*` l'**Aria** n’est **pas disponible** sur le Hardcore.
+1. Fais un **clic droit** avec le ticket.
+2. Un **compte à rebours de 5 secondes** démarre. Tu dois rester **immobile** et tu ressens de la nausée.
+3. Tu arrives à un **endroit aléatoire** de l'autre monde. Un message annonce à tout le monde : *« <joueur> vient d'entrer dans le Nether. »* (ou *« vient de quitter le Nether. »*).
 
-| Minerai  | Dégâts | Points d’armure | % dégâts bloqués |
-|----------|:------:|:---------------:|:----------------:|
-| Diamond  | 3.0    | 18              | 72 %             |
-| Sapphire | 5.0    | 20              | 80 %             |
-| Emerald  | 7.0    | 22              | 88 %             |
-| Aria*    | 9.0    | 23              | 92 %             |
+{% hint style="info" %}
+Le ticket n'est consommé que si la traversée réussit. Si elle est annulée, il t'est rendu.
+{% endhint %}
 
-### 🚫 Désactivations
+La traversée est **annulée** si tu bouges (*« Traversée annulée ! Vous avez bougé. »*) ou si tu es en combat (*« Traversée annulée ! Vous êtes en combat. »*).
 
-- **Potion de Force II**
-- **Potion de Dégâts II**
-- **Enchantement Frappe II**
-- **Enchantement Recul II**
+Elle est **refusée** :
 
-### ⏱️ Cooldowns
+- en combat : *« Impossible de traverser en combat. »* ;
+- depuis l'Overworld pendant que la boussole traque : *« Impossible de traverser pendant la track. »* (tu peux en revanche sortir du Nether).
 
-- **Golden Apple :** `2 min 30`  
-  ➜ Affichage du **temps restant** en main
-- **Enderpearl :** `10 s`  
-  ➜ Affichage du **temps restant** en main
+### 🍄 Verrue du Nether
 
-### 🎯 Effets de kill
+Toutes les 20 minutes, chaque joueur présent dans le Nether reçoit **1 verrue du Nether** : *« Vous venez de recevoir x1 verrue du Nether. (Prochaine dans 20 minutes) »*.
 
-- **Speed III** pendant **1 min**
-- **Éclair sonore global**
+## 📚 Pour aller plus loin
 
-### ⏳ Temps de ban à la mort
+- [⚔️ Combat, mort et primes](combat.md) : bannissement, cooldowns, équipement, primes
+- [🧭 La traque](traque.md) : boussole, Émeraude magique, classement
+- [📦 Coffres à loot](loot.md) : butin et annonces
 
-En cas de mort, un bannissement temporaire est appliqué en fonction du grade :
+Pour les commandes et règles communes à tous les modes (maisons, chat, combat-log…), consulte [les commandes](../general/commandes.md) et [le règlement](../general/regles.md).
 
-| Grade     | Durée du ban |
-|-----------|--------------|
-| Guerrier  | 12 h         |
-| VIP       | 10 h         |
-| SuperVIP  | 8 h          |
-| Héros     | 6 h          |
+## ⌨️ Commandes
 
----
+| Commande | Effet | Qui peut l'utiliser |
+|---|---|---|
+| `/prime` | Liste les joueurs recherchés | Tous |
+| `/classement` | Affiche le Top 10 | Tous |
+| `/stats [joueur]` | Affiche les statistiques | Tous |
+| `/playtime` | Affiche ton temps de jeu | Tous |
 
-## 4) ⛏️ Farming & XP
-
-- **Saphir** généré **dans tous les biomes**
-- **Émeraude** générée en biome **Extreme Hills**
-- **/bottlexp** : taxe 10 %
-- **Niveau requis :**
-  - **15** lvl (*Guerrier*)
-  - **10** lvl (*Grade premium*)
-- **Enchantements** en **version 1.8**
-- **Aucune suppression d’entités** via clear lag
-- **MobStacker**, afin d’éviter les chutes de FPS.
-
----
-
-## 5) 🧭 Boussole de Traque
-
-- **Donnée** à la **première connexion**
-
-**Cooldown :**
-- **20 s** (*Guerrier*)
-- **10 s** (*Grades premium*)
-
-**Cycle d’activation :**
-- **12 min désactivée** → **8 min activée** (boucle)
-- **Dans le Nether :** **toujours active**
-- **Portée :** **500 blocs** (*Pour tout les grades*)
-- **Pas de `/friends`**
-
-### 💎 Émeraude magique
-
-- Rend le joueur **invisible aux boussoles ennemies**
-- **Utilisable uniquement** pendant **l’activation** de la boussole
-- **Durée :** le **temps restant** de l’activation en cours
-- **Utilisation unique**
-- **Obtention** (après avoir tué un joueur) :
-  - **10 %** (*Guerrier*)
-  - **20 %** (*VIP*)
-  - **30 %** (*SuperVIP*)
-  - **40 %** (*Héros*)
-
----
-
-## 6) 🏆 Classement
-
-- **+40 pts** par **kill**
-- **−40 pts** par **mort**
-- **+3 pts** toutes les **20 min** de **connexion continue**
-
-```mcfunction
-/playtime   # Affiche le temps de jeu + compteur avant les +3 pts
-```
-
-**Accès :**
-- **Site :  [mineria.fr/hardcore](https://mineria.fr/hardcore)**
-- **En jeu :** `/classement`
-
----
-
-## 7) 🎁 Coffres à Loot
-
-- **Spawn aléatoire** sur la map
-- **Conditions :**
-  - **Minimum 10 joueurs** connectés
-  - À **10 joueurs** : **40 %** de chance **toutes les heures**
-  - **Spawn uniquement en surface**
-- **Message global :**  
-  > « **Un coffre est apparu sur la map !** Coordonnées : `xxxxx xxxxx` »
-- **Ouverture possible** **15 min** après apparition
-
-### 📦 Table des loots
-
-| Loot                         | % de chance |
-|------------------------------|:-----------:|
-| 6 EnderPearls                | 60 %        |
-| 1 Émeraude magique           | 100 %       |
-| 2 Livres Protection IV       | 20 %        |
-| 1 Livre Tranchant V          | 30 %        |
-| 1 Livre Flamme I             | 25 %        |
-| 1 Livre Aura de Feu II       | 15 %        |
-| 1 Livre Solidité III         | 18 %        |
-| 1 Pomme Cheat                | 10 %        |
-| 10 Émeraudes                 | 80 %        |
-| 2 Potions de Régénération II | 15 %        |
-| 1 Œuf de villageois          | 5 %         |
-
----
-
-## 8) 💰 Prime sur la Tête
-
-- Chaque **kill** ➜ **prime 1 h** sur la tête (**cumulable**)
-- Le **temps de prime ne diminue pas** si le joueur est **seul** sur le serveur
-- Si un **joueur avec prime** meurt, ça **compte double** dans le classement :
-  - **Tueur :** **+80 pts**
-  - **Victime :** **−80 pts**
-
-```mcfunction
-/wanted  # alias : /prime, /bounty
-```
-
----
-
-## ⭐ Avantages Grade Héros
-
-```mcfunction
-/craft
-/feed
-/enderchest   # (désactivé en combat)
-/repair       # (cooldown : 6 h, désactivé en combat)
-/uncondense   # blocs -> lingots
-/condense     # minerais -> blocs
-/furnace      # cuisson instantanée (minerais + nourriture)
-```
-
----
+Le détail de chaque commande se trouve sur les pages ci-dessus.
