@@ -5,7 +5,8 @@
 ## ⚡ En bref
 
 * Le chat est organisé en **onglets** (canaux).
-* `/msg` pour les messages privés, `/ignore` pour ne plus voir quelqu'un.
+* `/msg` pour les messages privés, même vers un joueur d'un autre serveur. `/ignore` pour ne plus voir quelqu'un.
+* Écris `@pseudo` pour mentionner un joueur.
 * Sous les messages, des boutons cliquables te permettent de signaler (⚠) ou d'ignorer (🔕).
 * Un bouton 😀 ouvre le sélecteur d'emojis.
 
@@ -36,6 +37,25 @@ Une commande tapée dans un autre onglet que **Général** est bloquée : revien
 
 * `/msg <joueur> <message>` envoie un message privé.
 * `/r <message>` répond à la dernière personne qui t'a écrit.
+
+Les MP passent d'un serveur à l'autre : tu peux écrire à un joueur connecté ailleurs sur le réseau, et `/r` lui répond aussi.
+
+| Message | Signification |
+| --- | --- |
+| « Joueur hors ligne. » | Le joueur n'est connecté sur aucun serveur. |
+| « Remise non confirmée. » | Le serveur du joueur n'a pas confirmé la réception dans les 5 secondes. Ton message a pu arriver quand même. |
+| « Tu ne peux pas envoyer de message à ce joueur. » | Le message ne peut pas lui être remis. |
+
+***
+
+## 📣 Mentions
+
+Écris `@pseudo` dans ton message pour mentionner un joueur. Le pseudo s'affiche en couleur, et le joueur mentionné reçoit une notification « <pseudo> t'a mentionné » avec un son.
+
+* Les mentions marchent dans le chat public, le chat de faction et le chat d'alliance. Pas dans le chat de trêve ni en MP.
+* Le joueur doit voir le message : dans le chat de faction, tu ne peux mentionner qu'un membre de ta faction.
+* Un joueur qui t'ignore n'est pas notifié.
+* Pour éviter le spam, un même joueur ne peut te notifier qu'une fois toutes les 30 secondes.
 
 ***
 

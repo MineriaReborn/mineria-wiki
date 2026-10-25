@@ -80,6 +80,8 @@ Par défaut, **V** sert à la fois au chat vocal et au Freelook. Si tu actives P
 
 **Maj droite** ouvre le menu des modules. Tu peux y activer chaque module, le régler, le **réinitialiser**, et le **placer** où tu veux à l'écran (avec aimantation). Tes réglages sont rangés en **profils**, et un profil peut contenir des **macros** déclenchées par une touche ou un bouton de souris.
 
+Les modules se masquent quand tu affiches la liste des joueurs (Tab) ou l'écran F3, pour ne pas les recouvrir. Le scoreboard reste affiché.
+
 | Module | Ce qu'il fait |
 | --- | --- |
 | Armor Status | Affiche l'armure équipée et sa durabilité |
@@ -147,12 +149,14 @@ Sur macOS, autorise l'accès au micro quand le système te le demande.
 
 `/cosmetics` (ou la touche « Gérer vos cosmetics ») ouvre tes cosmétiques. Tu peux **équiper** ou **déséquiper** ceux que tu possèdes. Un cosmétique verrouillé affiche « Acheter » et t'envoie sur la [boutique](https://mineria.fr/shop).
 
+La barre « Rechercher un cosmétique... » filtre par nom, sans tenir compte des majuscules ni des accents. Survole un cosmétique pour voir sa catégorie et si tu le possèdes.
+
 | Catégorie | Cosmétiques |
 | --- | --- |
 | **Chapeaux** | Masque de Baudouin IV, Bouffon, Bourreau, Casquette, Carton, Château, Cône, Couronne du Roi, Masque Mortuaire, Couronne du Diable, Chapeau de Paille, Fleurs, Halo, Cornes, Casque de Chevalier, Casque de Guerrier, Chapeau Moyai, Couronne de la Reine, Intello, Tête d'Épée, Téléviseur |
 | **Ailes** | Azur, Cramoisi, Braise, Ver des Glaces, Saphir, Séraphin, Murmure Céleste, Ardoise |
 
-Les options « Show Cosmetics » et « Show Capes » (activées par défaut) affichent ou masquent les cosmétiques et les capes sur ton écran.
+Les options « Show Cosmetics » et « Show Capes » (activées par défaut) affichent ou masquent les cosmétiques et les capes sur ton écran. Les cosmétiques d'un joueur invisible ne s'affichent pas.
 
 ***
 
@@ -184,6 +188,8 @@ Sur **PvP-Factions**, il affiche aussi des tuiles avec ton argent, ton power, te
 
 Assigne une touche à « Gérer vos waypoints » pour ouvrir l'écran **Waypoints**. **Ajouter** crée un point avec un nom, des coordonnées (ta position par défaut) et une couleur ; **Suppr.** en retire. Tes waypoints sont enregistrés sur ton PC, séparément pour chaque serveur et chaque dimension. Le serveur peut aussi t'afficher des points temporaires, par exemple pour un événement.
 
+En jeu, un waypoint apparaît comme une pastille de sa couleur entourée d'un halo, avec son nom et sa distance (par exemple « Base · 120 m »).
+
 ***
 
 ## 🎛️ Autres options
@@ -193,6 +199,7 @@ Assigne une touche à « Gérer vos waypoints » pour ouvrir l'écran **Waypoint
 | Nametag Health Bar | Oui | Barre de vie sous le pseudo des joueurs |
 | Transparent Nametags | Non | Pseudos semi-transparents |
 | Show name in F5 | Non | Voir ton propre pseudo en vue F5 |
+| Menu Animation | Non | Animation à l'ouverture des menus |
 | Discord Rich Presence | Oui | Affiche Mineria dans ton statut Discord |
 | Join messages | Chat | Où s'affichent les connexions (Chat, Overlay ou rien) |
 | Stream mode | Non | Masque tes coordonnées affichées à l'écran |
