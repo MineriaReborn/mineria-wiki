@@ -68,6 +68,7 @@ Le réglage de mémoire affiche la mémoire totale et disponible de ton PC. Les 
 | **R** | Toggle Sprint |
 | **Maj gauche** | Toggle Sneak |
 | **F3 + G** | Affiche les limites des chunks |
+| **M** (maintenue) | Carte de faction étendue, si le module Carte de faction est actif (réglable dans Options > Contrôles) |
 | Aucune | Guide des recettes, Waypoints, Cosmétiques : assigne-leur une touche dans les réglages |
 
 {% hint style="warning" %}
@@ -88,6 +89,7 @@ Les modules se masquent quand tu affiches la liste des joueurs (Tab) ou l'écran
 | Battery | Affiche le niveau de batterie de ton ordinateur |
 | Block Overlay | Personnalise le contour et le remplissage du bloc visé |
 | Boss Bar | Affiche la barre de vie des boss (actif par défaut) |
+| Carte de faction | Affiche les claims autour de toi sur PvP-Factions. Inactif par défaut : active-le ici ou avec `/f map` |
 | Chunk Borders | Affiche les limites des chunks autour de toi |
 | Combo Counter | Affiche ton combo de coups en cours |
 | Compass | Boussole qui suit la direction de ton regard |

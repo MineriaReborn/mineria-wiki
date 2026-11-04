@@ -28,7 +28,7 @@
 | `/f description <texte>` | Change la description | Modérateur et plus |
 | `/f tag <nom>` (`rename`) | Renomme la faction | Modérateur et plus |
 | `/f show [faction]` (`who`) · `/f list [page]` | Fiche et liste des factions | Tous |
-| `/f map [on\|off]` | Carte des claims | Tous |
+| `/f map` (`/fmap`) | Affiche ou masque la carte des claims à l'écran | Tous |
 | `/f claim [rayon]` · `/f autoclaim` · `/f unclaim` · `/f unclaimall` | Gère les claims | Modérateur et plus |
 | `/f disband` | Dissout la faction | Leader |
 | `/f perm` | Règle les permissions par rôle | Leader |

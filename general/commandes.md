@@ -15,7 +15,8 @@
 | `/file` (`/queue`) · `/file quitter` | Affiche ta place dans la file d'attente, ou la quitte. | Tous |
 | `/list` | Liste des joueurs connectés. | Tous |
 | `/ping` (`/ms`) | Affiche ta latence. | Tous |
-| `/aide` (`/help`, `/wiki`) | Donne le lien vers ce wiki. | Tous |
+| `/aide` (`/help`) | Donne le lien vers ce wiki. | Tous |
+| `/wiki` | Ouvre le wiki en jeu. | Tous |
 
 Plus de détails : [Serveurs et hub](serveurs.md).
 

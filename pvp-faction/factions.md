@@ -64,7 +64,7 @@ Un **claim** protège un chunk. Dans ton territoire :
 | Claim en continu en marchant | `/f autoclaim` | Modérateur ou Leader |
 | Libérer un chunk | `/f unclaim` | Modérateur ou Leader |
 | Tout libérer | `/f unclaimall` | Modérateur ou Leader |
-| Voir la carte des claims | `/f map [on\|off]` | Tous |
+| Voir la carte des claims | `/f map` (`/fmap`) affiche ou masque le module « Carte de faction » | Tous |
 
 **Nombre de claims maximum** : 30 au départ, jusqu'à **55** en montant de niveau.
 
@@ -217,7 +217,7 @@ Les niveaux 16, 23 et 29 la réduisent. Si la taxe n'est pas payée, la faction 
 | `/f description <texte>` | Change la description | Modérateur et plus |
 | `/f tag <nom>` (`rename`) | Renomme la faction | Modérateur et plus |
 | `/f show [faction]` (`who`) · `/f list [page]` | Fiche et liste des factions | Tous |
-| `/f map [on\|off]` | Carte des claims | Tous |
+| `/f map` (`/fmap`) | Affiche ou masque la carte des claims à l'écran | Tous |
 | `/f claim [rayon]` · `/f autoclaim` · `/f unclaim` · `/f unclaimall` | Gère les claims | Modérateur et plus |
 | `/f disband` | Dissout la faction | Leader |
 | `/f perm` | Règle les permissions par rôle | Leader |
