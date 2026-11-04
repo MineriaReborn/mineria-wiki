@@ -178,7 +178,7 @@ Sur **PvP-Factions**, il affiche aussi des tuiles avec ton argent, ton power, te
 | W | Warps | `/warps` |
 | S | Shop (verrouillé sans la compétence « Accès marché ») | `/warp shop` |
 | E | Réserve | `/reserve` |
-| R | Progression | `/rankup` |
+| R | Wiki en jeu (guides, crafts, pillage) | `/wiki` |
 | L | Classements | `/classement` |
 | P | Planning des événements | `/planning` |
 | F | Home de faction (si tu as une faction) | `/f home` |
