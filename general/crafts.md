@@ -29,15 +29,15 @@ La compétence **Filon d'Aria** (Baron) donne **0,25 %** de chance de trouver un
 
 ## 🛡️ Les armures
 
-Chaque point d'armure réduit les dégâts de **4 %**.
+Plus une armure a de points, plus elle te protège.
 
-| Matériau | Points (casque · plastron · jambières · bottes) | Total | Dégâts réduits | Durabilité (casque · plastron · jambières · bottes) | Enchantabilité |
-| --- | --- | :---: | :---: | --- | :---: |
-| Fer | 2 · 6 · 5 · 2 | 15 | 60 % | 195 · 240 · 225 · 210 | 9 |
-| Diamant | 3 · 7 · 5 · 3 | 18 | 72 % | 429 · 528 · 495 · 462 | 10 |
-| **Saphir** | 3 · 8 · 6 · 3 | 20 | **80 %** | 819 · 1 008 · 945 · 882 | 12 |
-| **Émeraude** | 4 · 9 · 6 · 3 | 22 | **88 %** | 1 027 · 1 264 · 1 185 · 1 106 | 10 |
-| **Aria** | 4 · 9 · 7 · 3 | 23 | **92 %** | 1 287 · 1 584 · 1 485 · 1 386 | 8 |
+| Matériau | Points (casque · plastron · jambières · bottes) | Total | Durabilité (casque · plastron · jambières · bottes) | Enchantabilité |
+| --- | --- | :---: | --- | :---: |
+| Fer | 2 · 6 · 5 · 2 | 15 | 195 · 240 · 225 · 210 | 9 |
+| Diamant | 3 · 7 · 5 · 3 | 18 | 429 · 528 · 495 · 462 | 10 |
+| **Saphir** | 3 · 8 · 6 · 3 | **20** | 819 · 1 008 · 945 · 882 | 12 |
+| **Émeraude** | 4 · 9 · 6 · 3 | **22** | 1 027 · 1 264 · 1 185 · 1 106 | 10 |
+| **Aria** | 4 · 9 · 7 · 3 | **23** | 1 287 · 1 584 · 1 485 · 1 386 | 8 |
 
 - Plus l'**enchantabilité** est haute, meilleurs sont les enchantements proposés par la table d'enchantement.
 - Sur Mineria, les **casques** et les **bottes** sont plus solides qu'en vanilla, quel que soit le matériau.

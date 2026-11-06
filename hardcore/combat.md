@@ -58,12 +58,12 @@ Messages : *« Tu dois attendre encore X avant de relancer une perle. »* et *«
 
 ## 🛡️ Matériaux
 
-| Matériau | Dégâts de l'épée | Durabilité de l'épée | Protection de l'armure complète |
+| Matériau | Dégâts de l'épée | Durabilité de l'épée | Points de l'armure complète |
 |---|---|---|---|
-| Diamant | 7 | 1561 | 72 % |
-| Saphir | 8 | 3000 | 80 % |
-| Émeraude | 9 | 2800 | 88 % |
-| Aria | 10 | 4100 | 92 % |
+| Diamant | 7 | 1561 | 18 |
+| Saphir | 8 | 3000 | 20 |
+| Émeraude | 9 | 2800 | 22 |
+| Aria | 10 | 4100 | 23 |
 
 Le **saphir** et l'**émeraude** se trouvent en minant. L'équipement **Aria** se trouve dans les [coffres à loot](loot.md).
 
