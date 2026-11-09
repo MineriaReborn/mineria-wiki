@@ -21,6 +21,7 @@
 
 * [⚔️ PvP-Factions](pvp-faction/index.md)
   * [🏰 Factions](pvp-faction/factions.md)
+  * [🛡️ Blason de faction](pvp-faction/blason.md)
   * [⚔️ Guerre et pillage](pvp-faction/guerre.md)
   * [📈 Progression](pvp-faction/progression.md)
   * [💰 Économie](pvp-faction/economie.md)

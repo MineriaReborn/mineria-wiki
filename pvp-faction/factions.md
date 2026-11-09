@@ -240,7 +240,7 @@ Sur la fiche de **ta** faction, des boutons te permettent d'agir directement, **
 
 | Action | Ce que ça fait | Par défaut |
 |---|---|---|
-| Modifier le blason | Ouvre l'atelier du blason (`/f blason`) | Leader |
+| Modifier le blason | Ouvre l'atelier du blason (`/f blason`, voir [Blason](blason.md)) | Leader |
 | Rejoindre le home | Te téléporte au home de la faction, après le délai de téléportation habituel | Tous les membres |
 | Adhésion | Passe la faction d'**ouverte** à **sur invitation**, et inversement | Leader |
 | Modifier la description | Change le texte de la fiche | Modérateur et Leader |
@@ -288,4 +288,4 @@ La description fait **120 caractères maximum**. Les **liens** et les **codes co
 | `/f quest` | Quêtes de faction (voir [Quêtes](quetes.md)) | Membres |
 | `/ff` · `/fa` · `/ft` · `/fp` | Chats de faction, alliés, trêves, public | Tous |
 
-Pour les classements, voir [Classements](classements.md). Pour grandir en tant que joueur, voir [Progression](progression.md).
+Pour dessiner l'emblème de ta faction, voir [Blason](blason.md). Pour les classements, voir [Classements](classements.md). Pour grandir en tant que joueur, voir [Progression](progression.md).

@@ -52,6 +52,7 @@ Les détails sont dans [Factions](factions.md) et [Guerre et pillage](guerre.md)
 | Page | Ce que tu y apprends |
 | --- | --- |
 | 🏰 [Factions](factions.md) | Créer une faction, rôles, claims, power, relations, niveaux, banque, taxe et fiche de faction |
+| 🛡️ [Blason](blason.md) | Dessiner, importer ou choisir l'emblème de ta faction |
 | ⚔️ [Guerre et pillage](guerre.md) | Pillage, heures de guerre, contrats de guerre, Stèle maudite, home de pillage |
 | 📈 [Progression](progression.md) | Rankup, arbre de compétences, anneaux |
 | 💰 [Économie](economie.md) | Shop, bourse, Hôtel des Ventes, échanges, spawners, bouteilles d'XP |
