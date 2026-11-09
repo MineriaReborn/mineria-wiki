@@ -58,7 +58,7 @@ Autres éléments :
 
 - **Palette** : jusqu'à **15 couleurs**, plus la transparence. Les touches `1` à `9` choisissent vite une couleur, et le clic droit sur une couleur la retire.
 - Modifier une couleur **recolore tous ses pixels**. Tu peux saisir sa valeur hexadécimale.
-- **Aperçu en jeu** : bascule entre **fond sombre** et **fond clair** pour vérifier la lisibilité.
+- **Aperçu en jeu** : ton blason tel qu'il apparaîtra sur la fiche de faction, au classement, au scoreboard et sur le nametag.
 - **Réinitialiser** : repart d'une grille vide, ou revient au blason actuel de ta faction s'il existe.
 
 ### Importer
