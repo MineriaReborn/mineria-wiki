@@ -67,7 +67,7 @@ La rareté dépend de la **chance** de la récompense.
 Une récompense « Kit » te donne l'accès à un **kit métier**. Contrairement aux kits de grade (voir [Grades](../general/grades.md)), ils ne dépendent pas de ton grade : tu ne peux les obtenir que dans les box.
 
 * L'accès est **permanent** ou **temporaire** : le récapitulatif du tirage te le dit (« Accès au kit X » ou « Accès au kit X pendant … »).
-* Une fois l'accès obtenu, récupère le kit avec `/kit <nom>`, **une fois toutes les 24 h**. `/kit view <nom>` montre son contenu sans le prendre.
+* Une fois l'accès obtenu, récupère le kit avec `/kit <nom>`, **une fois toutes les 24 h**. `/kit view <nom>` ouvre le menu des kits sur ce kit (voir [Kits et warps](kits-et-warps.md)).
 * Comme pour tous les kits, il te faut assez de place dans ton inventaire, et les objets reçus sont **liés** : impossible de les vendre à l'hôtel des ventes, de les échanger ou de les offrir.
 
 Les potions des kits sont toutes des **potions jetables**.
@@ -154,7 +154,7 @@ Les chances ci-dessous sont **arrondies**, regroupées par type d'objet. Chaque 
 | `/dons toggle` | Active ou désactive la réception | Partenaires |
 | `/dons block <pseudonyme>` | Bloque un joueur | Partenaires |
 | `/kit <nom>` | Récupère un kit métier débloqué (toutes les 24 h) | Joueurs qui ont gagné l'accès |
-| `/kit view <nom>` | Montre le contenu d'un kit | Joueurs qui ont gagné l'accès |
+| `/kit view <nom>` | Ouvre le menu des kits sur ce kit | Tous (aperçu possible sans l'accès) |
 | `/reserve` | Récupère les items livrés en Réserve | Tous |
 
 Les box et le baluchon s'utilisent par **clic droit**, sans commande. Pour dépenser ton argent, va voir l'[économie](economie.md).

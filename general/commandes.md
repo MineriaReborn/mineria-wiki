@@ -28,7 +28,8 @@ Plus de détails : [Serveurs et hub](serveurs.md).
 | `/homes` | Liste tes homes (cliquables) avec « Total : n/limite ». | Tous · Faction |
 | `/sethome <nom>` | Crée un home (lettres, chiffres, `-` et `_`). Ta limite dépend de ton [grade](grades.md). | Tous · Faction |
 | `/delhome <nom>` | Supprime un home. | Tous · Faction |
-| `/warp [nom]` (`/warps`) | Te téléporte à un warp, ou liste les warps qui te sont ouverts. | Tous · Faction |
+| `/warps` (`/warp`) | Ouvre le menu des warps : un clic te téléporte. Voir [Kits et warps](../pvp-faction/kits-et-warps.md). | Tous · Faction |
+| `/warp <nom>` | Te téléporte directement à un warp. | Tous · Faction |
 | `/warp info <nom>` | Infos sur un warp. | Tous · Faction |
 | `/spawn` | Retour au spawn. | Tous · Faction |
 | `/tpa <joueur>` (`/call`) | Demande à te téléporter à un joueur. La demande expire après 10 secondes. | Tous · Faction |
@@ -36,7 +37,7 @@ Plus de détails : [Serveurs et hub](serveurs.md).
 | `/tpno` (`/tpdeny`) | Refuse une demande de téléportation. | Tous · Faction |
 | `/back` (`/return`) | Retour à ta dernière position. | Chevalier ou VIP · Faction |
 
-Au départ, le seul warp ouvert est **Portail**. Le warp **Shop** se débloque avec la compétence « Accès marché » : voir [Progression](../pvp-faction/progression.md).
+Dans le menu `/warps`, chaque warp est marqué **Ouvert**, **Fermé** ou **Verrouillé**. Au départ, le seul warp ouvert est **Portail**. Le warp **Shop** se débloque avec la compétence « Accès marché » : voir [Progression](../pvp-faction/progression.md).
 
 {% hint style="warning" %}
 Une téléportation demande de **rester immobile 5 secondes** (« Téléportation dans 5 secondes, ne bouge pas ! »). Bouger l'annule. Elle est impossible en combat.
@@ -55,8 +56,8 @@ Limites de `/pay` : montant entier de 1 à 100 000, 3 secondes entre deux paieme
 
 | Commande | Effet | Accès |
 | --- | --- | --- |
-| `/kit` | Liste les kits. `/kit <nom>` réclame un kit. | Tous |
-| `/kit view <nom>` | Aperçu d'un kit en lecture seule. | Tous |
+| `/kits` (`/kit`) | Ouvre le menu des kits. `/kit <nom>` réclame un kit directement. | Tous · Faction |
+| `/kit view <nom>` | Ouvre le menu sur ce kit, même si tu ne l'as pas (aperçu). | Tous · Faction |
 | `/corbeille` (`/trash`, `/poubelle`) | Ouvre une poubelle. | Tous |
 | `/craft` (`/workbench`, `/crafting`) | Ouvre un établi. | Duc ou VIP · Faction |
 | `/enderchest` (`/ec`) | Ouvre ton coffre de l'Ender. | Duc ou VIP · Faction |
@@ -68,7 +69,7 @@ Limites de `/pay` : montant entier de 1 à 100 000, 3 secondes entre deux paieme
 | `/near [rayon]` | Liste les joueurs proches. | Duc ou VIP · Faction |
 | `/bottlexp [niveaux]` | Met ton XP en bouteille, sans perte. | Compétence « Embouteilleur » · Faction |
 
-Les kits de grade et les kits métier sont détaillés dans [Grades](grades.md) et [Box](../pvp-faction/box.md). Un kit peut être en attente : « Le kit X est en cooldown, reviens dans … ».
+Le menu des kits est expliqué dans [Kits et warps](../pvp-faction/kits-et-warps.md). Les kits de grade et les kits métier sont détaillés dans [Grades](grades.md) et [Box](../pvp-faction/box.md).
 
 ## 💬 Chat
 

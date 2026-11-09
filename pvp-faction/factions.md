@@ -17,7 +17,7 @@
 | Inviter un joueur | `/f invite <joueur>` |
 | Rejoindre (sur invitation) | `/f join <faction>` |
 | Quitter ta faction | `/f leave` |
-| Voir la fiche d'une faction | `/f show [faction]` |
+| Voir la fiche d'une faction | `/f show [faction\|joueur]` |
 | Voir la liste des factions | `/f list [page]` |
 
 Le nom d'une faction fait **entre 3 et 10 caractères**.
@@ -26,7 +26,7 @@ Le nom d'une faction fait **entre 3 et 10 caractères**.
 Après avoir quitté une faction ou en avoir été exclu, tu dois attendre **24 h** avant d'en rejoindre une autre. Si tu tentes quand même, le jeu t'affiche le temps restant.
 {% endhint %}
 
-Une faction peut être **ouverte** (`/f open`) : n'importe qui peut alors la rejoindre sans invitation.
+Une faction peut être **ouverte** (`/f open`, ou le réglage « Adhésion » de sa fiche) : n'importe qui peut alors la rejoindre sans invitation. Sinon, elle fonctionne **sur invitation**.
 
 ## 👑 Rôles et permissions
 
@@ -200,6 +200,57 @@ Chaque jour, la faction paie une **taxe** :
 
 Les niveaux 16, 23 et 29 la réduisent. Si la taxe n'est pas payée, la faction perd **3 claims au hasard** par jour. Garde donc ta banque approvisionnée !
 
+## 📇 La fiche de faction
+
+La **fiche** est l'écran qui résume une faction. Elle remplace l'ancien affichage dans le chat.
+
+### Comment l'ouvrir
+
+- Avec `/f show` : sans nom, tu ouvres la fiche de **ta** faction.
+- Avec `/f show <faction>` ou `/f show <pseudo>` : tu cherches par **nom de faction** ou par **pseudo d'un de ses membres**.
+- En cliquant sur le **tag d'une faction** dans le chat.
+- Depuis l'écran des [Classements](classements.md) (bouton « Fiche complète »).
+- En cliquant sur une **puce de relation** (allié, trêve, ennemi) dans une autre fiche.
+
+### Ce que tu y vois
+
+| Information | Détail |
+|---|---|
+| Identité | Blason, nom, niveau, place au classement des factions, date de fondation |
+| Statut | Adhésion **ouverte** ou **sur invitation**, faction **pacifique**, contrat de guerre en cours |
+| Chef et membres en ligne | Le Leader et le nombre de membres connectés |
+| Description | Le texte choisi par la faction |
+| Chiffres clés | Membres, claims, power (avec l'étiquette **Protégée** ou **Raidable**) et banque |
+| Taxe ou activité | La **taxe quotidienne** pour ta propre faction, l'**activité** (active ou inactive) pour les autres |
+| Expérience | XP, progression vers le niveau suivant, avantages débloqués et prochain avantage |
+| Membres | Liste des membres avec leur rôle et leur titre |
+| Relations | Alliés, trêves et ennemis, cliquables |
+| Meilleurs membres | Le meilleur membre de la faction dans les classements Seigneur & Roi, Chasseurs, Mineurs, Marchands et Richesse |
+| Contrat de guerre | Adversaire, temps restant, contrat actif ou en pause (voir [Guerre et pillage](guerre.md)) |
+
+Passe la souris sur les icônes d'aide pour avoir le détail d'un chiffre.
+
+{% hint style="info" %}
+**Confidentialité** : le power, la contribution et la dernière connexion de chaque membre ne sont visibles que par la faction elle-même et ses **alliés**. La **taxe** n'est visible que par la faction. Le contrat de guerre n'est visible que par les deux factions concernées.
+{% endhint %}
+
+### Les actions de ta faction
+
+Sur la fiche de **ta** faction, des boutons te permettent d'agir directement, **selon tes permissions de faction** (réglées par le Leader avec `/f perm`) :
+
+| Action | Ce que ça fait | Par défaut |
+|---|---|---|
+| Modifier le blason | Ouvre l'atelier du blason (`/f blason`) | Leader |
+| Rejoindre le home | Te téléporte au home de la faction, après le délai de téléportation habituel | Tous les membres |
+| Adhésion | Passe la faction d'**ouverte** à **sur invitation**, et inversement | Leader |
+| Modifier la description | Change le texte de la fiche | Modérateur et Leader |
+
+Un bouton grisé veut dire que ton rôle ne permet pas l'action. Un court délai s'applique entre deux changements d'adhésion.
+
+### La description
+
+La description fait **120 caractères maximum**. Les **liens** et les **codes couleur** sont refusés (le caractère `&` n'est pas accepté). Tu peux la changer depuis la fiche ou avec `/f desc <texte>`.
+
 ## ⌨️ Commandes
 
 | Commande | Effet | Qui peut l'utiliser |
@@ -213,10 +264,12 @@ Les niveaux 16, 23 et 29 la réduisent. Si la taxe n'est pas payée, la faction 
 | `/f leader <joueur>` | Transfère le rôle de Leader | Leader |
 | `/f promote` · `/f demote` · `/f mod` · `/f member` | Change le rôle d'un joueur | Leader |
 | `/f title` | Donne un titre à un joueur | Modérateur et plus |
-| `/f open` | Ouvre ou ferme la faction | Leader |
-| `/f description <texte>` | Change la description | Modérateur et plus |
+| `/f open` (`close`) | Ouvre la faction à tous ou la passe sur invitation | Leader |
+| `/f description <texte>` (`desc`) | Change la description (120 caractères maximum, sans lien ni code couleur) | Modérateur et plus |
+| `/f blason` | Ouvre l'atelier du blason de ta faction | Selon les permissions de faction (Leader par défaut) |
 | `/f tag <nom>` (`rename`) | Renomme la faction | Modérateur et plus |
-| `/f show [faction]` (`who`) · `/f list [page]` | Fiche et liste des factions | Tous |
+| `/f show [faction\|joueur]` (`who`) | Ouvre la fiche d'une faction, trouvée par son nom ou par le pseudo d'un membre | Tous |
+| `/f list [page]` | Liste des factions | Tous |
 | `/f map` (`/fmap`) | Affiche ou masque la carte des claims à l'écran | Tous |
 | `/f claim [rayon]` · `/f autoclaim` · `/f unclaim` · `/f unclaimall` | Gère les claims | Modérateur et plus |
 | `/f disband` | Dissout la faction | Leader |

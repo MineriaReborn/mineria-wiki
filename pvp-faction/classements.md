@@ -10,6 +10,8 @@ Pour aller directement à un classement : `/classement <grade|faction|chasseur|m
 
 Les classements se mettent à jour **toutes les 30 secondes** environ.
 
+Au spawn, un **hologramme** affiche aussi les classements : voir plus bas.
+
 ## 📊 Les six classements
 
 | Classement | Tri | Précisions |
@@ -71,7 +73,26 @@ Ta place dans les cinq autres classements rapporte des points (pour les Factions
 Clique sur un nom pour ouvrir sa fiche.
 
 - **Fiche joueur** : faction, rang, monstres tués, blocs cassés, ventes au shop, solde. Pour un Seigneur ou un Roi : temps en rang, temps en WarZone, en nature, en claim ennemi, victoires KOTH, Totem et Météorite, et l'**activité récente**.
-- **Fiche faction** : niveau, expérience, membres, claims, power, alliés, ennemis et meilleurs contributeurs (visibles par la faction et ses alliés).
+- **Fiche faction** : un résumé s'affiche à droite de l'écran (niveau, place, chef, membres, claims, power, alliés, ennemis). Le bouton **Fiche complète** ouvre la fiche détaillée de la faction : blason, expérience, avantages, membres, relations, meilleurs membres dans chaque classement, contrat de guerre. Tout est expliqué dans [Factions](factions.md).
+
+{% hint style="info" %}
+Le power, la contribution et la dernière connexion des membres ne sont visibles que par la faction et ses alliés.
+{% endhint %}
+
+## 🪧 L'hologramme du spawn
+
+Au spawn, un **panneau flottant** affiche le **TOP 10** de chacun des six classements : Seigneur & Roi, Factions, Chasseurs, Mineurs, Marchands et Richesse.
+
+- Il passe **automatiquement** d'un classement à l'autre.
+- **Clic droit en le visant** : tu passes tout de suite au classement suivant.
+- Ta **propre place** s'affiche sur la ligne **« Toi »** (pour les Factions, la ligne « Ta faction »). Si tu n'es pas classé, elle te l'indique.
+- Il se met à jour régulièrement : le panneau indique depuis combien de temps.
+- Plus tu t'éloignes, **moins il affiche de détails**, puis il disparaît.
+- Un obstacle entre le panneau et toi le rend plus discret.
+
+{% hint style="info" %}
+Pour une recherche précise ou un classement complet, ouvre l'écran avec `/classement`.
+{% endhint %}
 
 ## 🎁 Récompenses
 

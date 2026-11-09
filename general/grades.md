@@ -78,7 +78,7 @@ En combat, `/craft`, `/ec`, `/repair` et `/home` sont désactivées.
 
 ## 🎒 Les kits
 
-`/kit` affiche la liste des kits : ceux que tu ne peux pas prendre apparaissent **barrés**. `/kit <nom>` récupère un kit et `/kit view <nom>` montre son contenu sans le prendre.
+`/kits` (ou `/kit`) ouvre le **menu des kits** sur PvP-Factions : tu y vois tous les kits, leur état et leur contenu, et tu les récupères d'un clic. Tout est détaillé dans [Kits et warps](../pvp-faction/kits-et-warps.md). `/kit <nom>` récupère un kit directement.
 
 - Chaque kit se récupère **une fois toutes les 24 h**.
 - Il te faut assez de place : « Ton inventaire est plein, le kit X ne t'a pas été donné. »
@@ -125,8 +125,8 @@ Ces grades sont réservés aux membres de l'équipe de modération et de dévelo
 
 | Commande | Effet | Qui peut l'utiliser |
 | --- | --- | --- |
-| `/kit` | Liste les kits | Tous |
+| `/kit` (`/kits`) | Ouvre le menu des kits | Tous |
 | `/kit <nom>` | Récupère un kit (toutes les 24 h) | Selon ton grade |
-| `/kit view <nom>` | Montre le contenu d'un kit | Selon ton grade |
+| `/kit view <nom>` | Ouvre le menu sur ce kit, même si tu ne l'as pas (aperçu) | Tous |
 | `/back`, `/craft`, `/ec`, `/condense`, `/uncondense`, `/feed`, `/furnace`, `/near`, `/repair` | Voir le tableau ci-dessus | Selon ton grade |
 | `/rankup` | Monte de grade de jeu | Tous |

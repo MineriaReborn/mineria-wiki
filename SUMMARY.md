@@ -24,6 +24,7 @@
   * [⚔️ Guerre et pillage](pvp-faction/guerre.md)
   * [📈 Progression](pvp-faction/progression.md)
   * [💰 Économie](pvp-faction/economie.md)
+  * [🧰 Kits et warps](pvp-faction/kits-et-warps.md)
   * [🎁 Box, cadeaux et baluchon](pvp-faction/box.md)
   * [🌲 PvE](pvp-faction/pve.md)
   * [🎉 Événements](pvp-faction/evenements.md)

@@ -6,6 +6,7 @@
 
 - `/f` affiche l'aide des factions.
 - Les commandes communes à tout Mineria (homes, warps, `/spawn`, `/tpa`, messages privés, `/report`…) sont dans [Commandes](../general/commandes.md).
+- `/kits` et `/warps` ouvrent des menus : voir [Kits et warps](kits-et-warps.md).
 - Les commandes liées à ton grade (`/craft`, `/ec`, `/repair`, `/near`…) sont dans [Grades](../general/grades.md).
 - En combat, `/spawn`, `/home`, `/tpa`, `/warp`, `/ec`, `/craft` et `/repair` sont désactivées pendant 30 secondes.
 
@@ -24,10 +25,12 @@
 | `/f leader <joueur>` | Transfère le rôle de Leader | Leader |
 | `/f promote` · `/f demote` · `/f mod` · `/f member` | Change le rôle d'un joueur | Leader |
 | `/f title` | Donne un titre à un joueur | Modérateur et plus |
-| `/f open` | Ouvre ou ferme la faction | Leader |
-| `/f description <texte>` | Change la description | Modérateur et plus |
+| `/f open` (`close`) | Ouvre la faction à tous ou la passe sur invitation | Leader |
+| `/f description <texte>` (`desc`) | Change la description (120 caractères maximum, sans lien ni code couleur) | Modérateur et plus |
+| `/f blason` | Ouvre l'atelier du blason de ta faction | Selon les permissions de faction (Leader par défaut) |
 | `/f tag <nom>` (`rename`) | Renomme la faction | Modérateur et plus |
-| `/f show [faction]` (`who`) · `/f list [page]` | Fiche et liste des factions | Tous |
+| `/f show [faction\|joueur]` (`who`) | Ouvre la fiche d'une faction, trouvée par son nom ou le pseudo d'un membre | Tous |
+| `/f list [page]` | Liste des factions | Tous |
 | `/f map` (`/fmap`) | Affiche ou masque la carte des claims à l'écran | Tous |
 | `/f claim [rayon]` · `/f autoclaim` · `/f unclaim` · `/f unclaimall` | Gère les claims | Modérateur et plus |
 | `/f disband` | Dissout la faction | Leader |
@@ -99,15 +102,15 @@ Détails : [Économie](economie.md).
 
 | Commande | Effet | Qui peut l'utiliser |
 | --- | --- | --- |
-| `/kit` | Liste les kits | Tous |
-| `/kit <nom>` | Récupère un kit (toutes les 24 h) | Selon ton grade ou tes box |
-| `/kit view <nom>` | Montre le contenu d'un kit | Selon ton grade ou tes box |
+| `/kit` (`/kits`) | Ouvre le menu des kits | Tous |
+| `/kit <nom>` | Récupère un kit directement | Selon ton grade ou tes box |
+| `/kit view <nom>` | Ouvre le menu sur ce kit (aperçu possible sans l'avoir) | Tous |
 | `/dons send <partenaire> <message>` (`/gift`, `/don`) | Envoie un don à un partenaire | Tous |
 | `/dons menu` | Récupère les dons reçus | Partenaires |
 | `/dons toggle` | Active ou désactive la réception | Partenaires |
 | `/dons block <pseudonyme>` | Bloque un joueur | Partenaires |
 
-Détails : [Box](box.md) et [Grades](../general/grades.md).
+Détails : [Kits et warps](kits-et-warps.md), [Box](box.md) et [Grades](../general/grades.md).
 
 ***
 

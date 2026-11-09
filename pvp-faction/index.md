@@ -15,7 +15,7 @@
 ## 🚀 Tes premiers pas
 
 1. **Rejoins le serveur.** Au hub, fais un clic droit avec ta boussole et choisis **Faction**. Voir [Serveurs et hub](../general/serveurs.md).
-2. **Récupère ton équipement.** À ta première connexion, tu reçois un **kit de bienvenue**. Tape ensuite `/kit` : le kit **Guerrier** se récupère toutes les 24 h. Voir [Grades](../general/grades.md).
+2. **Récupère ton équipement.** À ta première connexion, tu reçois un **kit de bienvenue**. Ouvre ensuite le menu avec `/kits` : le kit **Guerrier** se récupère toutes les 24 h. Voir [Kits et warps](kits-et-warps.md) et [Grades](../general/grades.md).
 3. **Trouve ton coin.** Au spawn, clique sur le PNJ **Téléporteur** : il t'envoie en pleine nature, entre 200 et 5 000 blocs du centre. Voir [PvE](pve.md).
 4. **Pose ton home.** `/sethome <nom>` enregistre l'endroit, `/home <nom>` t'y ramène. Tu as **1 home** au départ.
 5. **Crée ou rejoins une faction.** `/f create <nom>` pour fonder la tienne, ou `/f join <faction>` après une invitation. Protège ensuite ta base avec `/f claim`. Voir [Factions](factions.md).
@@ -51,16 +51,17 @@ Les détails sont dans [Factions](factions.md) et [Guerre et pillage](guerre.md)
 
 | Page | Ce que tu y apprends |
 | --- | --- |
-| 🏰 [Factions](factions.md) | Créer une faction, rôles, claims, power, relations, niveaux, banque et taxe |
+| 🏰 [Factions](factions.md) | Créer une faction, rôles, claims, power, relations, niveaux, banque, taxe et fiche de faction |
 | ⚔️ [Guerre et pillage](guerre.md) | Pillage, heures de guerre, contrats de guerre, Stèle maudite, home de pillage |
 | 📈 [Progression](progression.md) | Rankup, arbre de compétences, anneaux |
 | 💰 [Économie](economie.md) | Shop, bourse, Hôtel des Ventes, échanges, spawners, bouteilles d'XP |
+| 🧰 [Kits et warps](kits-et-warps.md) | Le menu des kits, le menu des warps, comment les utiliser |
 | 🎁 [Box](box.md) | Box et clés, kits métier, dons aux partenaires, baluchon |
 | 🌲 [PvE](pve.md) | Téléportation aléatoire, Nether, Mob Zone, donjons, machines de ferme |
 | 🎉 [Événements](evenements.md) | Léviathan, KOTH, Totem, Météorite, Event Farm, Quête Fun, planning |
 | 📜 [Quêtes](quetes.md) | Quêtes personnelles et quêtes de faction, récompenses |
 | 🤺 [Duels](duels.md) | Duels 1v1 avec mise, arènes, tournois |
-| 🏆 [Classements](classements.md) | Les six classements et les fiches des joueurs et des factions |
+| 🏆 [Classements](classements.md) | Les six classements, l'hologramme du spawn et les fiches des joueurs et des factions |
 | ⌨️ [Commandes](commandes.md) | Toutes les commandes du mode sur une seule page |
 
 Pour tout ce qui concerne Mineria en général, va voir [Grades](../general/grades.md), [Chat](../general/chat.md), [Règles](../general/regles.md) et [Réserve](../general/reserve.md).
